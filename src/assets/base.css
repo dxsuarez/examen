@@ -1,0 +1,857 @@
+
+/** { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }*/
+
+/*
+* { background-color: red !important; opacity:1 !important; }
+* * { background-color: green !important; opacity:1 !important; }
+* * * { background-color: orange !important; opacity:1 !important; }
+* * * * { background-color: blue !important; opacity:1 !important; }
+* * * * * { background-color: yellow !important; opacity:1 !important; }
+* * * * * * { background-color: black !important; opacity:1 !important; }
+* * * * * * * { background-color: aqua !important; opacity:1 !important; }
+* * * * * * * * { background-color: pink !important; opacity:1 !important; }
+*/
+/*------------------------------------------------------------------------*/
+/* line 29, ../../sass/rules/base.scss */
+html {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 36, ../../sass/rules/base.scss */
+div {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 43, ../../sass/rules/base.scss */
+span {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 50, ../../sass/rules/base.scss */
+object {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 57, ../../sass/rules/base.scss */
+iframe {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 64, ../../sass/rules/base.scss */
+h1 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 71, ../../sass/rules/base.scss */
+h2 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 78, ../../sass/rules/base.scss */
+h3 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 85, ../../sass/rules/base.scss */
+h4 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 92, ../../sass/rules/base.scss */
+h5 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 99, ../../sass/rules/base.scss */
+h6 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 106, ../../sass/rules/base.scss */
+p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 113, ../../sass/rules/base.scss */
+blockquote {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 120, ../../sass/rules/base.scss */
+pre {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 127, ../../sass/rules/base.scss */
+a {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 134, ../../sass/rules/base.scss */
+abbr {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 141, ../../sass/rules/base.scss */
+acronym {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 148, ../../sass/rules/base.scss */
+address {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 155, ../../sass/rules/base.scss */
+big {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 162, ../../sass/rules/base.scss */
+cite {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 169, ../../sass/rules/base.scss */
+code {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 176, ../../sass/rules/base.scss */
+del {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 183, ../../sass/rules/base.scss */
+dfn {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 190, ../../sass/rules/base.scss */
+em {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 197, ../../sass/rules/base.scss */
+img {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 204, ../../sass/rules/base.scss */
+ins {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 211, ../../sass/rules/base.scss */
+kbd {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 218, ../../sass/rules/base.scss */
+q {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 225, ../../sass/rules/base.scss */
+s {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 232, ../../sass/rules/base.scss */
+samp {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 239, ../../sass/rules/base.scss */
+small {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 246, ../../sass/rules/base.scss */
+strike {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 253, ../../sass/rules/base.scss */
+strong {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 260, ../../sass/rules/base.scss */
+sub {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 267, ../../sass/rules/base.scss */
+sup {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 274, ../../sass/rules/base.scss */
+tt {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 281, ../../sass/rules/base.scss */
+var {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 288, ../../sass/rules/base.scss */
+b {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 295, ../../sass/rules/base.scss */
+u {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 302, ../../sass/rules/base.scss */
+i {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 309, ../../sass/rules/base.scss */
+center {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 316, ../../sass/rules/base.scss */
+dl {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 323, ../../sass/rules/base.scss */
+dt {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 330, ../../sass/rules/base.scss */
+dd {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 338, ../../sass/rules/base.scss */
+ol:not(.base-exception) {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 347, ../../sass/rules/base.scss */
+ul:not(.base-exception) {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 356, ../../sass/rules/base.scss */
+*:not(.info-content-box) li {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 363, ../../sass/rules/base.scss */
+fieldset {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 370, ../../sass/rules/base.scss */
+form {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 377, ../../sass/rules/base.scss */
+label {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 384, ../../sass/rules/base.scss */
+legend {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 391, ../../sass/rules/base.scss */
+table {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 398, ../../sass/rules/base.scss */
+caption {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 405, ../../sass/rules/base.scss */
+tbody {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 412, ../../sass/rules/base.scss */
+tfoot {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 419, ../../sass/rules/base.scss */
+thead {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 426, ../../sass/rules/base.scss */
+tr {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 433, ../../sass/rules/base.scss */
+th {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 440, ../../sass/rules/base.scss */
+td {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 447, ../../sass/rules/base.scss */
+article {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 454, ../../sass/rules/base.scss */
+aside {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 461, ../../sass/rules/base.scss */
+canvas {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 468, ../../sass/rules/base.scss */
+details {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 475, ../../sass/rules/base.scss */
+embed {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 482, ../../sass/rules/base.scss */
+figure {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 489, ../../sass/rules/base.scss */
+figcaption {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 496, ../../sass/rules/base.scss */
+footer {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 503, ../../sass/rules/base.scss */
+header {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 510, ../../sass/rules/base.scss */
+hgroup {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 517, ../../sass/rules/base.scss */
+menu {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 524, ../../sass/rules/base.scss */
+nav {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 531, ../../sass/rules/base.scss */
+output {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 538, ../../sass/rules/base.scss */
+ruby {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 545, ../../sass/rules/base.scss */
+section {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 552, ../../sass/rules/base.scss */
+summary {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 559, ../../sass/rules/base.scss */
+time {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 566, ../../sass/rules/base.scss */
+mark {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 573, ../../sass/rules/base.scss */
+audio {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 580, ../../sass/rules/base.scss */
+video {
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  vertical-align: baseline;
+}
+
+/* line 587, ../../sass/rules/base.scss */
+body {
+  background: white;
+  margin: 0px;
+  padding: 0px;
+  border: 0px currentColor;
+  position: relative;
+}
+
+/* line 595, ../../sass/rules/base.scss */
+article {
+  display: block;
+}
+
+/* line 599, ../../sass/rules/base.scss */
+aside {
+  display: block;
+}
+
+/* line 603, ../../sass/rules/base.scss */
+details {
+  display: block;
+}
+
+/* line 607, ../../sass/rules/base.scss */
+figcaption {
+  display: block;
+}
+
+/* line 611, ../../sass/rules/base.scss */
+figure {
+  display: block;
+}
+
+/* line 615, ../../sass/rules/base.scss */
+footer {
+  display: block;
+}
+
+/* line 619, ../../sass/rules/base.scss */
+header {
+  display: block;
+}
+
+/* line 623, ../../sass/rules/base.scss */
+hgroup {
+  display: block;
+}
+
+/* line 627, ../../sass/rules/base.scss */
+menu {
+  display: block;
+}
+
+/* line 631, ../../sass/rules/base.scss */
+nav {
+  display: block;
+}
+
+/* line 635, ../../sass/rules/base.scss */
+section {
+  display: block;
+}
+
+/* line 640, ../../sass/rules/base.scss */
+ol:not(.base-exception) {
+  list-style: none;
+  position: relative;
+}
+
+/* line 650, ../../sass/rules/base.scss */
+ul:not(.base-exception) {
+  list-style: none;
+  position: relative;
+}
+
+/* line 655, ../../sass/rules/base.scss */
+blockquote {
+  quotes: none;
+}
+
+/* line 659, ../../sass/rules/base.scss */
+q {
+  quotes: none;
+}
+
+/* line 663, ../../sass/rules/base.scss */
+blockquote::before {
+  content: none;
+}
+
+/* line 667, ../../sass/rules/base.scss */
+blockquote::after {
+  content: none;
+}
+
+/* line 671, ../../sass/rules/base.scss */
+q::before {
+  content: none;
+}
+
+/* line 675, ../../sass/rules/base.scss */
+q::after {
+  content: none;
+}
+
+/* line 679, ../../sass/rules/base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 684, ../../sass/rules/base.scss */
+p {
+  margin: 0px 0px 15px;
+  padding: 0px;
+}
+
+/* line 689, ../../sass/rules/base.scss */
+q::before {
+  content: "";
+}
+
+/* line 693, ../../sass/rules/base.scss */
+q::after {
+  content: "";
+}
+
+/* line 697, ../../sass/rules/base.scss */
+u {
+  text-decoration: none;
+}
+
+/* line 701, ../../sass/rules/base.scss */
+td {
+  vertical-align: top;
+}
+
+/* line 705, ../../sass/rules/base.scss */
+table {
+  vertical-align: top;
+}
+
+/*------------------------------------------------------------------------*/
+/* line 712, ../../sass/rules/base.scss */
+.h1 {
+  /*font-size: 2em;*/
+  font-size: 32px;
+}
+
+/* line 718, ../../sass/rules/base.scss */
+.h2 {
+  /*font-size: 1.5em;*/
+  font-size: 24px;
+}
+
+/* line 724, ../../sass/rules/base.scss */
+.h3 {
+  /*font-size: 1.2em;*/
+  font-size: 20px;
+}
+
+/* line 730, ../../sass/rules/base.scss */
+.h4 {
+  /*font-size: 1em;*/
+  font-size: 16px;
+}
+
+/* line 736, ../../sass/rules/base.scss */
+.h5 {
+  /*font-size: 0.8em;*/
+  font-size: 13px;
+}
+
+/* line 742, ../../sass/rules/base.scss */
+.h6 {
+  /*font-size: 0.7em;*/
+  font-size: 11px;
+}
+
+/*------------------------------------------------------------------------*/
+/* line 753, ../../sass/rules/base.scss */
+ul:not(.base-exception) {
+  list-style-type: none;
+}
+
+/* line 758, ../../sass/rules/base.scss */
+a {
+  text-decoration: none;
+  cursor: default;
+}
+
+/* line 764, ../../sass/rules/base.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------------------------------------------*/
+/* line 771, ../../sass/rules/base.scss */
+.clear:after {
+  clear: both !important;
+  content: "" !important;
+  display: block !important;
+}

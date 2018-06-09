@@ -1,0 +1,66 @@
+<div class="row">
+  <div class="col-sm-6">
+    <app-carrusel></app-carrusel>
+  </div>
+  <div class="col-sm-6">
+    <app-formulario-actor
+      [actorId]="actor.actorId"
+      [nombres]="actor.nombres"
+      [apellidos]="actor.apellidos"
+      [fechaNacimiento]="actor.fechaNacimiento"
+      [numeroPeliculas]="actor.numeroPeliculas"
+      [retirado]="actor.retirado"
+      (dioClickEnBotonCrear)="alertarDioClickEnBotonCrear($event)"
+    >
+    </app-formulario-actor>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3" *ngFor="let actor of actores; let indice = index">
+    <app-vista-previa
+      [indice]="indice"
+      [nombre]="actor.nombres + ' ' + actor.apellidos"
+      [descripcion]="actor.fechaNacimiento + '(' + actor.numeroPeliculas + ')'"
+      (dioClickEnEstado)="alertar($event)"
+    >
+    </app-vista-previa>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <app-formulario-pelicula
+      [peliculaId]="pelicula.peliculaId"
+      [nombre]="pelicula.nombre"
+      [anioLanzamiento]="pelicula.anioLanzamiento"
+      [rating]="pelicula.rating"
+      [actoresPrincipales]="pelicula.actoresPrincipales"
+      [sinopsis]="pelicula.sinopsis"
+      [actorId]="pelicula.actorId"
+      (dioClickEnBotonCrear)="alertarPeliculaDioClickEnBotonCrear($event)"
+    >
+    </app-formulario-pelicula>
+  </div>
+  <div class="col-sm-6">
+    <app-vista-detallada
+      [actorId]="actor.actorId"
+      [nombres]="actor.nombres"
+      [apellidos]="actor.apellidos"
+      [fechaNacimiento]="actor.fechaNacimiento"
+      [numeroPeliculas]="actor.numeroPeliculas"
+      [retirado]="actor.retirado"
+    >
+    </app-vista-detallada>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <app-tabla-detalle
+      [peliculas]="actor.peliculas"
+      (dioClickEnFila)="alertarPeliculaDioClickEnFila($event)"
+    ></app-tabla-detalle>
+  </div>
+</div>

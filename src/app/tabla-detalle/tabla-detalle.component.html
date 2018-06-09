@@ -1,0 +1,25 @@
+<h3 class="first">Basic</h3>
+<p-table [value]="peliculas">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>peliculaId</th>
+      <th>nombre</th>
+      <th>anioLanzamiento</th>
+      <th>rating</th>
+      <th>actoresPrincipales</th>
+      <th>sinopsis</th>
+      <th>actorId</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-pelicula>
+    <tr (click)="hizoClickEnFila(pelicula.peliculaId)">
+      <td>{{pelicula.peliculaId}}</td>
+      <td>{{pelicula.nombre}}</td>
+      <td>{{pelicula.anioLanzamiento}}</td>
+      <td>{{pelicula.rating}}</td>
+      <td>{{pelicula.actoresPrincipales}}</td>
+      <td>{{pelicula.sinopsis}}</td>
+      <td>{{pelicula.actorId}}</td>
+    </tr>
+  </ng-template>
+</p-table>

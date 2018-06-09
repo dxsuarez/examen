@@ -1,0 +1,15 @@
+.carrusel {
+  height: 200px;
+  background: red;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.fondo{
+  background-color: blue;
+}

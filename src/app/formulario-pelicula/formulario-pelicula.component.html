@@ -1,0 +1,40 @@
+<div class="formulario-pelicula">
+
+    <span class="ui-float-label">
+      <input id="nombre" type="text" size="30" pInputText [(ngModel)]="nombre">
+      <label for="nombre">Nombre</label>
+    </span>
+
+    <br>
+
+    <span class="ui-float-label">
+      <input id="anioLanzamiento" type="text" size="30" pInputText [(ngModel)]="anioLanzamiento">
+      <label for="anioLanzamiento">Año lanzamiento</label>
+    </span>
+
+  <br>
+
+  <span class="ui-float-label">
+      <input id="rating" type="text" size="30" pInputText [(ngModel)]="rating">
+      <label for="rating">Rating</label>
+  </span>
+
+
+  <br>
+
+  <span class="ui-float-label">
+      <input id="actoresPrincipales" type="text" size="30" pInputText [(ngModel)]="actoresPrincipales">
+      <label for="actoresPrincipales">Actores principales</label>
+  </span>
+
+  <br>
+
+  <span class="ui-float-label">
+      <input id="sinopsis" type="text" size="30" pInputText [(ngModel)]="sinopsis">
+      <label for="sinopsis">Sinopsis</label>
+  </span>
+
+  <p-button (click)="hizoClickEnBotonLimpiar()" label="Limpiar"></p-button>
+  <p-button (click)="hizoClickEnBotonCrear()" label="Crear"></p-button>
+
+</div>
