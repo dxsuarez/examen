@@ -40,11 +40,12 @@ export class CarritoComponent implements OnInit {
   }
 
   open(content) {
-    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
-      this.closeResult = `Closed with: ${result}`;
+    //this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+    this.modalService.open(content, {}).result.then((result) => {
+      //this.closeResult = `Closed with: ${result}`;
       this.guardar();
     }, (reason) => {
-      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+      //this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
     });
   }
 
