@@ -1,0 +1,40 @@
+.vista-pelicula {
+  position: relative;
+  height: 100px;
+  background: yellow;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.vista-pelicula > div {
+  border: 1px solid black;
+}
+
+.vista-pelicula-imagen {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: white;
+  top: 0;
+  left: 0;
+}
+
+.vista-pelicula-nombre {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background: white;
+  top: 0;
+  right: 0;
+}
+
+.vista-pelicula-anioLanzamiento {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background: white;
+  bottom: 0;
+  right: 0;
+}

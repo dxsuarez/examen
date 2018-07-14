@@ -1,0 +1,109 @@
+<a [routerLink]="['/']">
+  Home
+</a>
+
+<div>
+  <h5>
+    Datos de cuenta
+  </h5>
+</div>
+<div class="row">
+  <div class="col-sm-8">
+    <app-vista-datos-cliente
+      [cliente]="cliente"
+      [tipoInformacionCod]="1"
+    >
+    </app-vista-datos-cliente>
+  </div>
+  <div class="col-sm-1">
+  </div>
+  <div class="col-sm-3">
+    <button class="btn btn-success carrito-vista-datos-cliente-boton"
+            (click)="open(content)"
+    >
+      Completar la orden
+    </button>
+  </div>
+</div>
+
+<br>
+
+<div>
+  <h5>
+    Datos de facturación
+  </h5>
+</div>
+<div class="row">
+  <div class="col-sm-8">
+    <app-vista-datos-facturacion>
+    </app-vista-datos-facturacion>
+  </div>
+  <div class="col-sm-1">
+  </div>
+  <div class="col-sm-3">
+    <button class="btn btn-warning carrito-vista-datos-cliente-boton"
+            (click)="open(content)"
+    >
+      Editar datos de facturación
+    </button>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-sm-12" *ngFor="let pelicula of peliculas">
+    <div class="carrito-detalle-peicula">
+      <div class="row">
+        <div class="col-sm-10">
+          <app-vista-detalle-pelicula
+            [pelicula]="pelicula"
+          >
+          </app-vista-detalle-pelicula>
+        </div>
+        <div class="col-sm-2">
+          <button class="btn btn-info carrito-detalle-peicula-boton"
+                  (click)="eliminar(pelicula.peliculaId)">
+            Eliminar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre" [(ngModel)]="facturacion.nombre" >
+      </div>
+      <div class="form-group">
+        <label for="apellido">Nombre</label>
+        <input type="text" class="form-control" id="apellido" placeholder="Ingrese el apellido" [(ngModel)]="facturacion.apellido" >
+      </div>
+      <div class="form-group">
+        <label for="correo">Correo</label>
+        <input type="text" class="form-control" id="correo" placeholder="Ingrese el correo" [(ngModel)]="facturacion.correo" >
+      </div>
+      <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" class="form-control" id="direccion" placeholder="Ingrese la dirección" [(ngModel)]="facturacion.direccion" >
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="c()">Save</button>
+  </div>
+</ng-template>
+
+
+
+

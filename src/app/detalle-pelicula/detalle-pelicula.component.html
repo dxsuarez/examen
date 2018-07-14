@@ -1,0 +1,34 @@
+<div *ngIf="actor" class="row" >
+  <div class="col-sm-12">
+    <h3>
+      {{actor.nombres}} {{actor.apellidos}}
+    </h3>
+  </div>
+</div>
+<div class="detalle-pelicula-vista-detalle">
+  <app-vista-detalle-pelicula
+    [pelicula]="pelicula"
+  >
+  </app-vista-detalle-pelicula>
+</div>
+<br>
+<div *ngIf="pelicula.disponible" class="row" >
+  <div class="col-sm-12">
+    <button class="btn btn-info"
+      (click)="anadirAlCarrito(pelicula.peliculaId)">
+      Añadir al carrito
+    </button>
+  </div>
+</div>
+<br>
+<br>
+<div *ngIf="!pelicula.disponible" class="row" >
+  <div class="col-sm-12">
+    <h1>
+      No disponible
+    </h1>
+  </div>
+</div>
+
+
+

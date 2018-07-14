@@ -1,0 +1,40 @@
+.vista-actor {
+  position: relative;
+  height: 100px;
+  background: yellow;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.vista-actor > div {
+  border: 1px solid black;
+}
+
+.vista-actor-imagen {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background: white;
+  bottom: 0;
+  right: 0;
+}
+
+.vista-actor-nombres {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background: white;
+  top: 0;
+  left: 0;
+}
+
+.vista-actor-apellidos {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background: white;
+  bottom: 0;
+  left: 0;
+}

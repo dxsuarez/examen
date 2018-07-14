@@ -1,0 +1,43 @@
+<div>
+  <h5>
+    {{actor.nombres}} {{actor.apellidos}}
+  </h5>
+</div>
+<div *ngIf="actor" class="row" >
+  <div class="col-sm-5">
+    <div class="row">
+      <div class="col-sm-6">
+        actorId: {{actor.actorId}}
+      </div>
+      <div class="col-sm-6">
+        nombres: {{actor.nombres}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        apellidos: {{actor.apellidos}}
+      </div>
+      <div class="col-sm-6">
+        fechaNacimiento: {{actor.fechaNacimiento}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        apellidos: {{actor.apellidos}}
+      </div>
+      <div class="col-sm-6">
+        fechaNacimiento: {{actor.fechaNacimiento}}
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-2">
+  </div>
+  <div class="col-sm-5">
+    <div class="detalle-actor-imagen">
+    </div>
+  </div>
+</div>
+
+<app-listado-pelicula
+  [actorId]=actor.actorId
+></app-listado-pelicula>

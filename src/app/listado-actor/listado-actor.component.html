@@ -1,0 +1,16 @@
+<p>
+  Actores
+</p>
+
+<div class="row">
+  <div class="col-sm-4" *ngFor="let actor of actores; let indice = index">
+    <a [routerLink]="[
+          '/actor',actor.actorId
+          ]">
+      <app-vista-actor
+        [actor]="actor"
+      >
+      </app-vista-actor>
+    </a>
+  </div>
+</div>

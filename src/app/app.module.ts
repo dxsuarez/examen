@@ -15,24 +15,43 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 
-import { CarruselComponent } from './carrusel/carrusel.component';
-import { FormularioComponent } from './formulario/formulario.component';
-import { VistaDetalladaComponent } from './vista-detallada/vista-detallada.component';
-import { VistaPreviaComponent } from './vista-previa/vista-previa.component';
-import { TablaDetalleComponent } from './tabla-detalle/tabla-detalle.component';
-import { FormularioActorComponent } from './formulario-actor/formulario-actor.component';
-import { FormularioPeliculaComponent } from './formulario-pelicula/formulario-pelicula.component';
+import { ActoresComponent } from './actores/actores.component';
+import { PeliculasComponent } from './peliculas/peliculas.component';
+import { HomeComponent } from './home/home.component';
+
+import {RouterModule} from '@angular/router';
+import {RUTAS_APP} from './app.routes';
+import { VistaActorComponent } from './vista-actor/vista-actor.component';
+import { ListadoActorComponent } from './listado-actor/listado-actor.component';
+import { DetalleActorComponent } from './detalle-actor/detalle-actor.component';
+import { VistaPeliculaComponent } from './vista-pelicula/vista-pelicula.component';
+import { ListadoPeliculaComponent } from './listado-pelicula/listado-pelicula.component';
+import { DetallePeliculaComponent } from './detalle-pelicula/detalle-pelicula.component';
+import { VistaDetallePeliculaComponent } from './vista-detalle-pelicula/vista-detalle-pelicula.component';
+import { CarritoComponent } from './carrito/carrito.component';
+import { VistaCarritoComponent } from './vista-carrito/vista-carrito.component';
+import { VistaClienteComponent } from './vista-cliente/vista-cliente.component';
+import { VistaDatosClienteComponent } from './vista-datos-cliente/vista-datos-cliente.component';
+import { VistaDatosFacturacionComponent } from './vista-datos-facturacion/vista-datos-facturacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarruselComponent,
-    FormularioComponent,
-    VistaDetalladaComponent,
-    VistaPreviaComponent,
-    TablaDetalleComponent,
-    FormularioActorComponent,
-    FormularioPeliculaComponent
+    ActoresComponent,
+    PeliculasComponent,
+    HomeComponent,
+    VistaActorComponent,
+    ListadoActorComponent,
+    DetalleActorComponent,
+    VistaPeliculaComponent,
+    ListadoPeliculaComponent,
+    DetallePeliculaComponent,
+    VistaDetallePeliculaComponent,
+    CarritoComponent,
+    VistaCarritoComponent,
+    VistaClienteComponent,
+    VistaDatosClienteComponent,
+    VistaDatosFacturacionComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +64,13 @@ import { FormularioPeliculaComponent } from './formulario-pelicula/formulario-pe
     BrowserAnimationsModule,
     MatButtonModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule.forRoot(
+      RUTAS_APP,
+      {
+        useHash: true
+      }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

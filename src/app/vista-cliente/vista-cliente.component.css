@@ -1,0 +1,20 @@
+.vista-cliente {
+  position: relative;
+  height: 40px;
+  background: pink;
+  border: 1px solid black;
+}
+
+.vista-cliente-imagen {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: green;
+}
+
+.vista-cliente-texto {
+  position: absolute;
+  height: 40px;
+  width: 160px;
+  right: 0;
+}

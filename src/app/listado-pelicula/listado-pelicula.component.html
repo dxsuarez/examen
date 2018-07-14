@@ -1,0 +1,17 @@
+<div>
+  <h5>
+    Películas
+  </h5>
+</div>
+<div class="row">
+  <div class="col-sm-3" *ngFor="let pelicula of peliculas">
+    <a [routerLink]="[
+          '/pelicula',pelicula.peliculaId
+          ]">
+      <app-vista-pelicula
+        [pelicula]="pelicula"
+      >
+      </app-vista-pelicula>
+    </a>
+  </div>
+</div>
