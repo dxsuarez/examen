@@ -1,7 +1,6 @@
 .vista-cliente {
   position: relative;
   height: 40px;
-  background: pink;
   border: 1px solid black;
 }
 
@@ -9,7 +8,9 @@
   position: absolute;
   height: 40px;
   width: 40px;
-  background: green;
+  background-image: url('https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/User_Accounts_alt.png');
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
 }
 
 .vista-cliente-texto {

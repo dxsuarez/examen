@@ -2,7 +2,9 @@
   position: relative;
   height: 40px;
   width: 40px;
-  background: yellow;
+  background-image: url('https://image.flaticon.com/icons/png/128/126/126083.png');
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
 }
 
 .vista-carrito-cantidad {
